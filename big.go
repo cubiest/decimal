@@ -75,7 +75,6 @@ var (
 	_ fmt.Stringer             = (*Big)(nil)
 	_ json.Unmarshaler         = (*Big)(nil)
 	_ encoding.TextUnmarshaler = (*Big)(nil)
-	_ decomposer               = (*Big)(nil)
 )
 
 // form indicates whether a decimal is a finite number, an
