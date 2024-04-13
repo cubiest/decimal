@@ -1,5 +1,5 @@
 module github.com/ericlagergren/decimal
 
-go 1.16
+go 1.22
 
 require github.com/mitchellh/hashstructure/v2 v2.0.2
