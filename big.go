@@ -13,9 +13,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/cubiest/hashstructure/v2"
 	"github.com/ericlagergren/decimal/internal/arith"
 	"github.com/ericlagergren/decimal/internal/c"
-	"github.com/mitchellh/hashstructure/v2"
 )
 
 const (
@@ -1816,7 +1816,7 @@ func (x *Big) validate() {
 
 // Hash returns a hash value for Big.
 //
-// Implements Hashable interface of github.com/mitchellh/hashstructure/.
+// Implements Hashable interface of github.com/cubiest/hashstructure/.
 func (x *Big) Hash() (uint64, error) {
 	return hashstructure.Hash(x.String(), hashstructure.FormatV2, nil)
 }

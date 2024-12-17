@@ -1,2 +1,4 @@
-github.com/mitchellh/hashstructure/v2 v2.0.2 h1:vGKWl0YJqUNxE8d+h8f6NJLcCJrgbhC4NcD46KavDd4=
-github.com/mitchellh/hashstructure/v2 v2.0.2/go.mod h1:MG3aRVU/N29oo/V/IhBX8GR/zz4kQkprJgF2EVszyDE=
+github.com/cubiest/hashstructure/v2 v2.0.0-20241217193915-36ea8c4cb377 h1:FdAvJEYWTmlQDCwHZebfzBmNvpURCedTP+0oMab9BXQ=
+github.com/cubiest/hashstructure/v2 v2.0.0-20241217193915-36ea8c4cb377/go.mod h1:iNeeHQTVpQds3OP1iohyNEkqJh24r7bk5RH8zDdTL0U=
+golang.org/x/text v0.21.0 h1:zyQAAkrwaneQ066sspRyJaG9VNi/YJ1NfzcGB3hZ/qo=
+golang.org/x/text v0.21.0/go.mod h1:4IBbMaMmOPCJ8SecivzSH54+73PCFmPWxNTLm+vZkEQ=
